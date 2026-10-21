@@ -1,0 +1,9 @@
+/work/
+/.idea/
+/.vscode/
+/.cache/
+/.env*
+__pycache__/
+*.log
+*.tmp
+*.sqlite*

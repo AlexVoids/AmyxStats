@@ -1,0 +1,25 @@
+name: AmyxStats
+main: Amyx\Stats\Main
+version: 1.0.0
+api: 5.0.0
+author: AlexVoids
+description: Persistent player and server statistics with ScoreHud placeholders
+website: https://github.com/AlexVoids/AmyxStats
+softdepend: [ScoreHud]
+commands:
+  stat:
+    description: Статистика игроков и сервера
+    aliases: [stats, mystat]
+    usage: /stat [ник|global|top <показатель>|chat|help]
+    permission: amyxstats.command
+permissions:
+  amyxstats.command:
+    default: true
+  amyxstats.others:
+    default: true
+  amyxstats.global:
+    default: true
+  amyxstats.top:
+    default: true
+  amyxstats.track:
+    default: true

@@ -1,0 +1,6 @@
+denied: "&cНедостаточно прав."
+unknown-player: "&cСтатистика этого игрока не найдена."
+unknown-metric: "&cНеизвестный показатель. Пример: /stat top blocks_broken"
+empty: "&7Статистика пока пуста."
+help: "&f/stat, /stats, /mystat &7— моя статистика\n&f/stat Ник &7— статистика игрока, в том числе офлайн\n&f/stat global &7— общая статистика\n&f/stat top kills &7— топ игроков\n&f/stat top blocks_broken &7— топ строителей\n&f/stat chat &7— все мои показатели в чат\n&f/stat placeholders &7— формат плейсхолдеров"
+placeholders: "&fЛичные: &a{amyxstats.my.blocks_broken}\n&fОбщие: &a{amyxstats.global.blocks_broken}\n&fK/D: &a{amyxstats.my.kdr}\n&fВремя: &a{amyxstats.my.playtime_formatted}\n&fРанг: &a{amyxstats.my.kills_rank}\n&fПолный каталог: docs/PLACEHOLDERS.md в исходниках плагина."
